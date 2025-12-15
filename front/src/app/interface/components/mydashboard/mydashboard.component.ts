@@ -2,10 +2,10 @@
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { Table } from 'primeng/table';
 import { MessageService, ConfirmationService } from 'primeng/api';
-import { Customer, Representative } from 'src/app/demo/api/customer';
-import { Product } from 'src/app/demo/api/product';
-import { CustomerService } from 'src/app/demo/service/customer.service';
-import { ProductService } from 'src/app/demo/service/product.service';
+import { Customer, Representative } from 'src/app/interface/api/customer';
+import { Product } from 'src/app/interface/api/product';
+import { CustomerService } from 'src/app/interface/service/customer.service';
+import { ProductService } from 'src/app/interface/service/product.service';
 import { NgModule } from '@angular/core';
 
 
